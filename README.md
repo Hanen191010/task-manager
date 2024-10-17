@@ -35,7 +35,7 @@
 
 1. Clone the repository:
     
-    git clone https://github.com/Hanen191010/-Task-Management-API.git
+    git clone https://github.com/Hanen191010/task-manager.git
     
 2. Install dependencies:
     
