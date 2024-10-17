@@ -1,12 +1,12 @@
 <?php
 
-namespace AppHttpControllers;
+namespace App\Http\Controllers;
 
-use AppHttpControllersController;
-use AppModelsTask;
-use IlluminateHttpRequest;
-use IlluminateSupportFacadesLog;
-use AppJobsGenerateDailyReport;
+use App\Http\Controllers\Controller;
+use App\Models\Task;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+use App\Jobs\GenerateDailyReport;
 
 class ReportController extends Controller
 {

@@ -27,7 +27,7 @@ use App\Http\Controllers\AuthController;
 Route::middleware('auth:api')->group(function () {
 
     // Group for routes with rate limiting
-    Route::middleware(['throttle:20,1'])->group(function () {
+    Route::middleware(['throttle:30,1'])->group(function () {
 
         // Task-related routes
         // Requires 'create_task' permission to create new tasks
